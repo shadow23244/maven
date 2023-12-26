@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class pom1 
 {
-	@FindBy(xpath = "//a[text()='Create New Account']") private WebElement create_new;
+	@FindBy(xpath = "//a[text()='Create new account']") private WebElement create_new;
 
 	public pom1(WebDriver driver)
 	{

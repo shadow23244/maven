@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-03T21:30:19 IST" name="Default suite" finished-at="2022-10-03T21:30:41 IST" duration-ms="22569">
+  <suite started-at="2023-11-21T23:21:18 IST" name="Default suite" finished-at="2023-11-21T23:26:17 IST" duration-ms="298988">
     <groups>
     </groups>
-    <test started-at="2022-10-03T21:30:19 IST" name="Default test" finished-at="2022-10-03T21:30:41 IST" duration-ms="22569">
-      <class name="test.test2">
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:test.test2@6fd83fc1]" started-at="2022-10-03T21:30:19 IST" name="openbrowser" finished-at="2022-10-03T21:30:29 IST" duration-ms="9825" status="PASS">
+    <test started-at="2023-11-21T23:21:18 IST" name="Default test" finished-at="2023-11-21T23:26:17 IST" duration-ms="298988">
+      <class name="test.test1">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:test.test1@54bff557]" started-at="2023-11-21T23:21:18 IST" name="openbrowser" finished-at="2023-11-21T23:23:19 IST" duration-ms="121058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method is-config="true" signature="createnewacc()[pri:0, instance:test.test2@6fd83fc1]" started-at="2022-10-03T21:30:29 IST" name="createnewacc" finished-at="2022-10-03T21:30:41 IST" duration-ms="12661" status="PASS">
+        <test-method is-config="true" signature="createnewacc()[pri:0, instance:test.test1@54bff557]" started-at="2023-11-21T23:23:42 IST" name="createnewacc" finished-at="2023-11-21T23:24:05 IST" duration-ms="23430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createnewacc -->
-        <test-method signature="verify()[pri:0, instance:test.test2@6fd83fc1]" started-at="2022-10-03T21:30:41 IST" name="verify" finished-at="2022-10-03T21:30:41 IST" duration-ms="5" status="PASS">
+        <test-method signature="verify()[pri:0, instance:test.test1@54bff557]" started-at="2023-11-21T23:24:05 IST" name="verify" finished-at="2023-11-21T23:24:05 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify -->
-        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:test.test2@6fd83fc1]" started-at="2022-10-03T21:30:41 IST" name="logout" finished-at="2022-10-03T21:30:41 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:test.test1@54bff557]" started-at="2023-11-21T23:24:05 IST" name="logout" finished-at="2023-11-21T23:24:05 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify status=SUCCESS method=test2.verify()[pri:0, instance:test.test2@6fd83fc1] output={null}]]]>
+                <![CDATA[[TestResult name=verify status=SUCCESS method=test1.verify()[pri:0, instance:test.test1@54bff557] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.test2@6fd83fc1]" started-at="2022-10-03T21:30:41 IST" name="closebrowser" finished-at="2022-10-03T21:30:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.test1@54bff557]" started-at="2023-11-21T23:24:12 IST" name="closebrowser" finished-at="2023-11-21T23:24:12 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-      </class> <!-- test.test2 -->
+      </class> <!-- test.test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

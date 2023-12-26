@@ -18,7 +18,7 @@ public class utility_class
 {
 	public static String gettestdata(int rowindex, int cellindex) throws EncryptedDocumentException, IOException 
 	{
-		FileInputStream file=new FileInputStream("C:\\Users\\evers\\eclipse-workspace\\Facebook\\test_data\\Facebook.xlsx");
+		FileInputStream file=new FileInputStream("C:\\Users\\kamle\\git\\maven\\test_data\\Facebook.xlsx");
 		Sheet sh = WorkbookFactory.create(file).getSheet("Sheet1");
 		String value = sh.getRow(rowindex).getCell(cellindex).getStringCellValue();
 		return value;
@@ -34,7 +34,7 @@ public class utility_class
 	
 	public static String propertyfile(String key) throws IOException
 	{
-		FileInputStream file=new FileInputStream("C:\\Users\\evers\\eclipse-workspace\\Facebook\\facebook.properties");
+		FileInputStream file=new FileInputStream("C:\\Users\\kamle\\git\\maven\\facebook.properties");
 		Properties p = new Properties();
 		p.load(file);
 		String value = p.getProperty(key);
